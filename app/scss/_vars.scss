@@ -1,0 +1,41 @@
+$accent: #2d66ee;
+$main: #101828;
+$bg: #f2f4f7;
+$sub-text: #667085;
+$grey: #1d2939;
+
+%sf-400 {
+  font-family: "SF Pro Text Regular", sans-serif;
+  font-weight: 400;
+}
+
+%sf-500 {
+  font-family: "SF Pro Text Medium", sans-serif;
+  font-weight: 500;
+}
+
+%sf-600 {
+  font-family: "SF Pro Text SemiBold", sans-serif;
+  font-weight: 600;
+}
+
+%sf-700 {
+  font-family: "SF Pro Text Bold", sans-serif;
+  font-weight: 700;
+}
+
+%inter-700 {
+  font-family: "Inter Bold", sans-serif;
+  font-weight: 700;
+}
+
+%btn {
+  border: none;
+  background-color: $accent;
+  padding: 11px 24px;
+  color: #fff;
+  @extend %sf-500;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 18px;
+}

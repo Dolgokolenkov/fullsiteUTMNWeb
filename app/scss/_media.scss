@@ -1,0 +1,728 @@
+@media (max-width: 1341px) {
+  .header__bottom-bg-left,
+  .header__bottom-bg-right {
+    background-size: 80%;
+  }
+
+  .header__bottom-bg-left {
+    background-image: url("../images/column-left-768.png");
+    width: 145px;
+  }
+
+  .header__bottom-bg-right {
+    background-image: url("../images/column-right-768.png");
+    width: 135px;
+    height: 950px;
+  }
+}
+
+@media (max-width: 950px) {
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .header {
+    padding-bottom: 32px;
+
+    &__bottom-bg-left,
+    &__bottom-bg-right {
+      background-size: 80%;
+    }
+
+    &__bottom-bg-left {
+      background-image: url("../images/column-left-768.png");
+      width: 145px;
+    }
+
+    &__bottom-bg-right {
+      background-image: url("../images/column-right-768.png");
+      width: 135px;
+      height: 950px;
+    }
+  }
+
+  .exit__btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .menu__btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+
+  .menu__list {
+    display: block;
+    right: 0;
+    left: 0;
+    top: 178px;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+
+    li + li {
+      margin-left: 0px;
+    }
+
+    li {
+      padding-top: 32px;
+      background-color: #fff;
+    }
+
+    transform: translateY(-1500%);
+  }
+
+  .header__top-contact.header__top-contact--active,
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+    background-color: #fff;
+  }
+
+  .header__top-contact {
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 590px;
+    padding-top: 55px;
+    padding-bottom: 140px;
+    transform: translateY(-1500%);
+  }
+
+  .header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__top-email--adaptiv {
+    display: block;
+  }
+
+  .exit__btn--active {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding-right: 112px;
+  }
+
+  .header__top-logo--active {
+    text-align: center;
+    padding-top: 90px;
+    z-index: 5;
+
+    .logo {
+      font-size: 48px;
+      line-height: 48px;
+    }
+  }
+
+  .menu__btn--active,
+  .header__top-email--adaptiv--active {
+    display: none;
+  }
+
+  .header__top-inner--active {
+    display: block;
+    position: relative;
+    z-index: 5;
+  }
+
+  .menu__list-item-link {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .header__bottom {
+    &-text {
+      max-width: 383px;
+      width: 100%;
+    }
+
+    &-callback {
+      max-width: 383px;
+      width: 100%;
+      padding: 32px;
+    }
+
+    &-callback--form {
+      display: block;
+    }
+  }
+
+  .input-info {
+    margin-bottom: 32px;
+  }
+
+  .consult__btn {
+    max-width: 155px;
+    width: 100%;
+  }
+
+  .header__bottom-text--title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .about {
+    &__cycle {
+      max-width: 320px;
+      margin-right: 83px;
+    }
+
+    &__dev {
+      margin-top: 124px;
+    }
+  }
+
+  .project {
+    &__item {
+      font-size: 17px;
+      line-height: 22px;
+    }
+
+    &__items-list {
+      max-height: 472px;
+    }
+  }
+
+  .apps {
+    padding-bottom: 45px;
+
+    &-subtitle {
+      max-width: 450px;
+      margin-bottom: 26px;
+    }
+
+    &__list {
+      display: block;
+      position: relative;
+    }
+
+    &__list-item {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    &__btn {
+      position: absolute;
+      right: 0;
+      margin-right: 0;
+      margin-top: 32px;
+    }
+
+    &__iteka {
+      margin-top: 32px;
+      background-size: 50%;
+      background-position: right bottom;
+
+      &-descr {
+        max-width: 450px;
+        width: 100%;
+      }
+    }
+  }
+
+  .team {
+    &__inner {
+      margin-right: 0;
+      max-width: 700px;
+    }
+
+    &__inner-numbers {
+      justify-content: space-around;
+    }
+
+    &_inner-descr {
+      padding-left: 35px;
+    }
+
+    &__inner-descr {
+      max-width: 370px;
+    }
+
+    &__inner-video {
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    &__inner-video img {
+      max-width: 704px;
+      width: 100%;
+    }
+
+    &__video {
+      display: none;
+    }
+  }
+
+  .discuss {
+    padding-top: 22px;
+    padding-bottom: 32px;
+
+    &__text-title {
+      margin-bottom: 32px;
+    }
+
+    &__text {
+      margin-bottom: 32px;
+    }
+
+    &__inner {
+      display: block;
+    }
+
+    &__form {
+      padding-bottom: 88px;
+
+      &-inputs {
+        margin-bottom: 0;
+      }
+    }
+
+    &__btn {
+      bottom: 24px;
+    }
+
+    &-input {
+      margin-bottom: 12px;
+      width: 100%;
+    }
+
+    &-phone,
+    &-name {
+      max-width: 264px;
+    }
+  }
+
+  .footer__content {
+    padding-top: 46px;
+    padding-left: 57px;
+    padding-bottom: 37px;
+  }
+
+  .footer__inner-item a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .footer__logo .logo {
+    font-size: 36px;
+    line-height: 28px;
+  }
+
+  .menu__btn {
+    width: 60px;
+    height: 40px;
+    background-image: url("../images/menu_button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .stages__info {
+    display: flex;
+    max-height: max-content;
+
+    &-item {
+      width: 100%;
+      max-width: 673px;
+    }
+  }
+
+  .book {
+    background-position: 270px 140px, 0 0;
+
+    &__title {
+      max-width: 460px;
+    }
+
+    &__form {
+      max-width: 335px;
+
+      &-inputs-row {
+        flex-direction: column;
+        align-items: baseline;
+      }
+    }
+
+    &-btn {
+      left: 24px;
+      right: 78px;
+    }
+  }
+
+  .faq {
+    &-title {
+      margin-bottom: 32px;
+    }
+
+    &__items {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__item-last-item-col {
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    background-image: url("../images/bg-425.png");
+    background-position: center 380px;
+    background-repeat: no-repeat;
+
+    &__top-email--adaptiv {
+      display: none;
+    }
+
+    &__top-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &__top-inner {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    &__top-logo--active .logo {
+      font-size: 20px;
+      line-height: 18px;
+    }
+
+    &__top-logo--active {
+      padding-top: 40px;
+    }
+
+    &__top-contact--stelephone {
+      padding-left: 37px;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url("../images/icons/phone-icon.svg");
+        width: 24px;
+        height: 24px;
+        top: -3px;
+        left: 0;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__top-contact {
+      top: 360px;
+      padding-bottom: 59px;
+    }
+
+    &__top-contact a + a {
+      margin-left: auto;
+      margin-top: 16px;
+    }
+
+    &__top-contact-element {
+      max-width: 175px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    &__top {
+      height: 90px;
+    }
+
+    &__bottom {
+      padding-top: 118px;
+    }
+
+    &__bottom-text {
+      min-width: 383px;
+      width: 100%;
+      padding-bottom: 540px;
+    }
+
+    &__bottom-callback--text {
+      font-size: 16px;
+      line-height: 24px;
+      max-width: 295px;
+    }
+
+    &__bottom-bg {
+      display: none;
+    }
+
+    &__bottom-callback {
+      z-index: 10;
+    }
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .menu {
+    &__list-item-link {
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    &__list li {
+      padding-top: 20px;
+    }
+
+    &__list {
+      top: 90px;
+    }
+
+    &__btn {
+      width: 40px;
+      height: 20px;
+    }
+  }
+
+  .exit__btn--active {
+    z-index: 999;
+    padding-right: 28px;
+  }
+
+  .about {
+    margin-top: 32px;
+
+    &__cycle-title {
+      width: 325px;
+    }
+
+    &__cycle-descr {
+      margin-bottom: 32px;
+    }
+
+    &__inner {
+      display: block;
+    }
+
+    &__dev {
+      margin-top: 32px;
+    }
+
+    &__cycle-text {
+      width: 272px;
+    }
+  }
+
+  .project {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &__item {
+      height: 55px;
+      max-width: 150px;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__items-list {
+      max-height: 560px;
+    }
+  }
+
+  .apps {
+    &-subtitle {
+      max-width: 340px;
+    }
+
+    &__list-items {
+      font-size: 14px;
+      line-height: 22px;
+      flex-wrap: wrap;
+      max-width: 325px;
+    }
+
+    &__list-item {
+      padding: 0;
+      margin-right: 20px;
+      margin-bottom: 16px;
+    }
+
+    &__list {
+      padding-bottom: 270px;
+      background-image: url("../images/projects_425_bg.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+    }
+
+    &__iteka {
+      background-image: none;
+      padding-bottom: 75px;
+      position: relative;
+    }
+
+    &__iteka-descr {
+      max-width: 375px;
+      margin-bottom: 20px;
+    }
+
+    &__iteka-text {
+      margin-bottom: 32px;
+    }
+
+    &__iteka-country,
+    &__iteka-job {
+      font-size: 14px;
+    }
+
+    &__iteka-tags {
+      margin-bottom: 34px;
+    }
+
+    &__iteka-subtitle {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .discuss {
+    padding-bottom: 55px;
+  }
+
+  .stages {
+    margin-bottom: 0;
+    margin-top: 32px;
+
+    &__info-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .team {
+    padding-top: 28px;
+    padding-bottom: 45px;
+
+    &__inner-number--subtitle {
+      font-size: 28px;
+      line-height: 24px;
+      letter-spacing: 0.326451px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .book {
+    padding: 50px 0;
+    background-image: none;
+    background-image: url("../images/book__bg_1.png");
+    background-position: center center;
+    background-size: cover;
+
+    &__title {
+      padding-bottom: 310px;
+      margin-bottom: 0;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 161px;
+        height: 243px;
+        background-image: url("../images/book-425.png");
+        top: 110px;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &-name,
+    &-email,
+    &-phone {
+      padding: 6px 0;
+    }
+
+    &__form {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .faq {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    &__item-question {
+      max-width: 340px;
+    }
+  }
+
+  .up765__btn {
+    display: none;
+  }
+
+  .down425__btn {
+    display: block;
+    padding: 11px 50px;
+    left: 0;
+    right: 0;
+    max-width: 258px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .discuss {
+    &-text {
+      margin-bottom: 130px;
+    }
+
+    &__form-inputs {
+      display: block;
+    }
+
+    &-input {
+      width: 100%;
+      max-width: 358px;
+    }
+
+    &__btn {
+      padding: 11px 60px;
+      left: 0;
+      right: 0;
+      max-width: 255px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .footer {
+    &__content {
+      padding: 36px;
+    }
+
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    &__inner-item {
+      max-width: 150px;
+      margin-bottom: 32px;
+    }
+  }
+}
